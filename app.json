@@ -14,7 +14,7 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.yourcompany.minimalnotes",
+      "bundleIdentifier": "com.tejas.minimalnotes",
       "buildNumber": "1.0.0"
     },
     "android": {
@@ -23,7 +23,7 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.yourcompany.minimalnotes",
+      "package": "com.tejas.minimalnotes",
       "versionCode": 1,
       "permissions": []
     },
@@ -41,8 +41,13 @@
     "scheme": "minimalnotes",
     "extra": {
       "router": {
-        "origin": false
+        "origin": false,
+        "root": "./app"
+      },
+      "eas": {
+        "projectId": "00dd891a-5cb6-43d2-bfbc-2bb608f4a3f3"
       }
-    }
+    },
+    "owner": "technopolis"
   }
 }
